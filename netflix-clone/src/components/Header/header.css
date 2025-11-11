@@ -1,0 +1,55 @@
+.header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20,20,20);
+    background-color: transparent;
+    height: 20vh;
+    color: white;
+    transition:all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    /* background-color:red; */
+}
+.nav__black{
+    background-color: rgb(20,20,20);
+}
+.header_container{
+    margin-top: -7vh;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 26, 26);
+}
+
+.header_left ul{
+    width: 180%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    font-size: 1.30rem;
+    /* background-color: lightblue; */
+}
+.header_right ul{
+    width: 120%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+    padding: 3rem 5rem;
+    font-size: 1.35rem;
+    /* background-color: lightblue; */
+}
+
+/* enlarge header right-side icons (Material UI svgs) */
+.header_right ul svg {
+    font-size: 1.8rem; /* larger than surrounding text */
+    vertical-align: middle;
+}
